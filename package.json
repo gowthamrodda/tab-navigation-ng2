@@ -1,0 +1,20 @@
+{
+  "name": "tab-navigation-ng2",
+  "version": "1.0.0",
+  "description": "project to demonstrate tab navigation with specific forms in each tab and respective progress bars.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gowthamrodda/tab-navigation-ng2.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/gowthamrodda/tab-navigation-ng2/issues"
+  },
+  "homepage": "https://github.com/gowthamrodda/tab-navigation-ng2#readme"
+}
