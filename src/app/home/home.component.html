@@ -1,3 +1,8 @@
-<p>
-  home works!
-</p>
+<ul class="nav nav-pills">
+  <li role="presentation" class="active"><a [routerLink]="['/tab1']" routerLinkActive="active">{{links.tab1}}</a></li>
+  <li role="presentation"><a [routerLink]="['/tab2']" routerLinkActive="active">{{links.tab2}}</a></li>
+  <li role="presentation"><a [routerLink]="['/tab3']" routerLinkActive="active">{{links.tab3}}</a></li>
+  <li role="presentation"><a [routerLink]="['/tab4']" routerLinkActive="active">{{links.tab4}}</a></li>
+</ul>
+<router-outlet></router-outlet>
+

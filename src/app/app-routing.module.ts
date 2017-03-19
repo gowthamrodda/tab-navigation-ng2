@@ -12,12 +12,12 @@ import {Tab4Component}                  from './tab4/tab4.component';
 
 const appRoutes: Routes = [
   {
-    path:'home', component: HomeComponent,
+    path:'', component: HomeComponent,
     children: [
-      {path:'tab1' , component: HomeComponent},
-      {path:'tab2' , component: HomeComponent},
-      {path:'tab3' , component: HomeComponent},
-      {path:'tab4' , component: HomeComponent},
+      {path:'tab1' , component: Tab1Component},
+      {path:'tab2' , component: Tab2Component},
+      {path:'tab3' , component: Tab3Component},
+      {path:'tab4' , component: Tab4Component},
     ]
   }
 ];
