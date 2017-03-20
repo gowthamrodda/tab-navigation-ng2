@@ -3,6 +3,7 @@ import { NgModule } from '@angular/core';
 import { AppRoutingModule } from './app-routing.module';
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { HttpModule } from '@angular/http';
+import { TypeaheadModule, DatepickerModule  } from 'ng2-bootstrap';
 
 
 import { AppComponent } from './app.component';
@@ -26,7 +27,9 @@ import { Tab4Component } from './tab4/tab4.component';
     FormsModule,
     ReactiveFormsModule,
     HttpModule,
-    AppRoutingModule
+    AppRoutingModule,
+    TypeaheadModule.forRoot(),
+    DatepickerModule.forRoot()
   ],
   providers: [],
   bootstrap: [AppComponent]

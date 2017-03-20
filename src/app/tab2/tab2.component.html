@@ -1,3 +1,14 @@
-<p>
-  tab2 works!
-</p>
+<pre class="card card-block card-header">Model: {{myForm.value.state | json}}</pre>
+<form [formGroup]="myForm">
+  <div class="form-group">
+    <label class="control-label col-sm-2" >States</label>
+    <div class="col-sm-4">
+    <input formControlName="state"
+           [typeahead]="states"
+           typeaheadOptionsLimit="7"
+           typeaheadMinLength="0"
+           placeholder="Typeahead inside a form"
+           class="form-control">
+    </div>
+  </div>
+</form>
