@@ -1,10 +1,10 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 import { AppRoutingModule } from './app-routing.module';
-import { FormsModule } from '@angular/forms';
+import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { HttpModule } from '@angular/http';
 
-import { InputComponent } from './input';
+
 import { AppComponent } from './app.component';
 import { HomeComponent } from './home/home.component';
 import { Tab1Component } from './tab1/tab1.component';
@@ -19,12 +19,12 @@ import { Tab4Component } from './tab4/tab4.component';
     Tab1Component,
     Tab2Component,
     Tab3Component,
-    Tab4Component,
-    InputComponent
+    Tab4Component
   ],
   imports: [
     BrowserModule,
     FormsModule,
+    ReactiveFormsModule,
     HttpModule,
     AppRoutingModule
   ],
